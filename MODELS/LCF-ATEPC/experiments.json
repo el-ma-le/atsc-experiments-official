@@ -1,0 +1,13 @@
+{
+  "output_dir": "output",
+  "use_unique_bert": false,
+  "use_bert_spc_for_apc": false,
+  "SRD": 5,
+  "learning_rate": 3e-5,
+  "dropout": 0,
+  "num_train_epochs": 50,
+  "train_batch_size": 16,
+  "max_seq_length": 80,
+  "local_context_focus": "fusion",
+  "patience": 10
+}

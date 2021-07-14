@@ -1,0 +1,19 @@
+mode: term
+glove_path: /home/ubuntu/mylrz/atsc-experiments/DATA/glove.840B.300d.txt
+sentiment_path: /home/ubuntu/mylrz/atsc-experiments/DATA/MAMS/sentiment_dict.json
+lowercase: True
+max_vocab_size: None
+min_vocab_freq: 0
+train_set: 0 # 1 for training mode, 0 for test mode
+rand_state: 0
+aspect_term_model:
+  type: bert_capsnet
+  bert_capsnet:
+    bert_size: 768
+    capsule_size: 300
+    dropout: 0.1
+    optimizer: adam
+    batch_size: 32
+    learning_rate: 0.00002
+    weight_decay: 0
+    gpu: 0
