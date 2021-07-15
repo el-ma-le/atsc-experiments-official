@@ -2,6 +2,12 @@
 
 Due to restrictions for some of the official datasets, we are not allowed to upload our preprocessed datasets here. Thus, we provide our preprocessing notebooks and download instructions for the datasets here. Each dataset has its own preprocessing notebook.
 
+## Procedure
+- Download datasets.
+- Adjust the paths in the notebooks according to where you stored the data.
+- Run notebooks.
+- Put final data in `/DATA/` folder.
+
 ## SemEval-14 datasets
 Downloading requires an account at metashare which can be set up easily. The dataset-specific links are the following:
 - Restaurants Training: http://metashare.ilsp.gr:8080/repository/browse/semeval-2014-absa-restaurant-reviews-train-data/479d18c0625011e38685842b2b6a04d72cb57ba6c07743b9879d1a04e72185b8/
