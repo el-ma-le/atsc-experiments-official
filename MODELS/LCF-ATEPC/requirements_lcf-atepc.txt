@@ -1,0 +1,7 @@
+mlflow==1.17.0
+scikit-learn==0.24.2
+seqeval==1.2.2
+torch==1.8.1
+torchaudio==0.8.1
+torchvision==0.9.1
+transformers==4.6.0
