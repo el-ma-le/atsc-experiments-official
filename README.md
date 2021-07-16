@@ -21,7 +21,7 @@ For data preprocessing refer to the corresponding folder where data sources are 
 - CapsNetBERT: download glove from http://nlp.stanford.edu/data/wordvecs/glove.840B.300d.zip and save in `/DATA/`, `python -m spacy download en`
 - MGATN: download glove from https://nlp.stanford.edu/data/wordvecs/glove.42B.300d.zip and save in `/DATA/`
 - RGAT-BERT: download glove from http://nlp.stanford.edu/data/wordvecs/glove.840B.300d.zip and save in `/DATA/`
-- GRACE: download pretrained weights from https://drive.google.com/u/0/uc?id=1xYD3bl1qAiJlK4Ruyr7MWsgBLDGk0YjT and save in `/pretrained_weight/`
+- GRACE: download pretrained weights from https://drive.google.com/u/0/uc?id=1xYD3bl1qAiJlK4Ruyr7MWsgBLDGk0YjT and save in `/GRACE/pretrained_weight/`
 
 ## Required python package versions
 A requirements file can be found in each model folder.
